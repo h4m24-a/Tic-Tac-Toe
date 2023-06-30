@@ -96,3 +96,7 @@ function checkForWin() {
   return false
 }
 
+
+function checkForDraw() {
+  return [...cells].every(cell => cell.textContent !== '');
+}
