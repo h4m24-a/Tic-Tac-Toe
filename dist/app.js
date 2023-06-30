@@ -106,3 +106,14 @@ function checkForDraw() {
 function displayMessage(message) {
   messageElement.textContent = message;
 }
+
+
+function resetNames() {
+  player1Input.value =''
+  player2Input.value=''
+  player1Input.disabled = false;
+  player2Input.disabled = false;
+  startButton.textContent = 'Start Game'
+  gameOver = true;
+  messageElement.textContent = ''
+}
