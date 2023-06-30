@@ -97,6 +97,12 @@ function checkForWin() {
 }
 
 
+//  It returns true if every cell is filled, and false otherwise.
 function checkForDraw() {
   return [...cells].every(cell => cell.textContent !== '');
+}
+
+
+function displayMessage(message) {
+  messageElement.textContent = message;
 }
