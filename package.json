@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/h4m24-a/tic-tac-toe/issues"
   },
-  "homepage": "https://github.com/h4m24-a/tic-tac-toe#readme",
+  "homepage": "https://github.com/h4m24-a/tic-tac-toe/",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
   }
