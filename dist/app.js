@@ -32,7 +32,7 @@ function startGame() {
     cell.addEventListener("click", handleCellClick)
   })
 
-  displayMessage(`Current Turn: ${player1Name}`)
+  displayMessage(`Current Turn: ${ player1Name}`);
 
 }
 
